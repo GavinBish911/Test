@@ -1,0 +1,4 @@
+db.nutrition.countDocuments({ "row.Nutrient code": {$ne: null} })
+db.nutrition.countDocuments({ "row.Nutrient code": {$eq: null} })
+db.nutrition.countDocuments({})
+db.nutrition.countDocuments({ "row.Measure description": {$eq: "cup"} })
